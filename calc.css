@@ -1,5 +1,10 @@
 body{
-    background-color: aqua;
+    background-image: linear-gradient(90deg,#ba5370 ,#f4e2d8);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cal{
     display: inline-block;
@@ -8,13 +13,18 @@ body{
     padding-bottom: 8px;
     border: 2px;
     border-color: rgb(71, 38, 189);
-    background-color: rgb(240, 118, 18);
+    /* background-color: rgb(240, 118, 18); */
+    background-image: linear-gradient(45deg,#ff9966 ,#ff5e62);
     border-radius: 20px;
     text-align: center;
+    
+    
     
 }
 table{
     margin: auto;
+    display: flex;
+    
 }
 input{
     font-size: 23px;
@@ -22,7 +32,7 @@ input{
 }
 button{
    font-size: 30px;
-   background-color: coral;
+   background-image: linear-gradient(45deg,#43cea2 , #185a9d);
    width: 67px;
    height: 55px;
    border-radius: 10px;
